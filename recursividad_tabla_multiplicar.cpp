@@ -14,11 +14,20 @@ int main(){
 }
 
 int recursividad(int cont, int nume){
-    if(cont == 13){
-        return; 
-    }else{
+    if(cont == 13){ //Caso base 
+        return;
+    }else{ //Caso general
         printf("%d x %d = %d\n", cont, nume, cont * nume);
         recursividad(cont + 1, nume);
     }
     return nume;
 }
+
+/*
+Grupo 2:
+Wendy Alava Flores
+Felipe Figueroa Cevallos
+Josue Loor Vera
+Cristian Ochoa Ramos
+Cristhian Placencio Aucapiña
+*/
